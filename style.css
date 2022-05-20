@@ -35,7 +35,7 @@ body{
 .carousel::after{
     content: "";
     position: absolute;
-    width: 225px;
+    width: 250px;
     height: 100%;
     top: 0;
     z-index: 1;
@@ -55,7 +55,7 @@ body{
     display: flex;
     align-items: center;
     height: inherit;
-    animation: slideshow 15s linear infinite;
+    animation: slideshow 10s linear infinite;
 }
 
 .carousel__img{
